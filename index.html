@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Maps</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <main>
+        <h1>Maps</h1>
+
+        <div class="card">
+            <!-- Caja de busqueda -->
+            <input id="search-box" type="text" placeholder="Terminos de busqueda ..." />
+
+            <!-- Contenedor del mapa -->
+            <div id="map"></div>
+        </div>
+    </main>
+
+    <script src="maps.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEO5wFmsJtThAnoaIx62pWH8mNuzZnrNI&callback=googleMapsCallback&libraries=places"></script>
+</body>
+
+</html>

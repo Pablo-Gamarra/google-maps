@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  background-color: #e8e8e8;
+}
+
+main {
+  height: 100%;
+  margin: 30px;
+}
+
+h1,
+input {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#map {
+  height: 300px;
+  border: 2px solid #8f8f8f;
+  border-radius: 3px;
+}
+
+#search-box {
+  border: 2px solid #8f8f8f;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#search-box:focus {
+  outline: none;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 0px 11px 0px #adadad;
+  padding: 30px;
+  border-radius: 3px;
+}
